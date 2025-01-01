@@ -1,11 +1,9 @@
-import { GlobalStyles } from './styles/GlobalStyles';
+import { useRoutes } from 'react-router-dom';
+import { routes } from '@/pages/route';
 
 function App() {
-  return (
-    <>
-      <GlobalStyles />
-    </>
-  );
+  const elem = useRoutes(routes);
+  return elem;
 }
 
 export default App;
