@@ -7,9 +7,13 @@
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "jsx": "react-jsx", // JSX 사용 설정
+    "jsx": "react-jsx",
     "noEmit": true,
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src"]
 }
