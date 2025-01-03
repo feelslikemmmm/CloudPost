@@ -1,4 +1,3 @@
-import { lazy } from 'react';
 import GlobalLayout from './_layout';
 import IndexPage from '.';
 import Login from '@/pages/Login';
